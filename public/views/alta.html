@@ -18,7 +18,7 @@
     </fieldset>
 </form>
 
-<h4>Listado de Tareas</h4>
+<h4>Listado de Tareass</h4>
 <div ng-repeat="tarea in tareas | orderBy: '-prioridad'">
     <span class="glyphicon glyphicon-circle-arrow-up" ng-hide="tarea.prioridad==2" ng-click="masPrioridad(tarea)"></span>
     <span class="glyphicon glyphicon-circle-arrow-down" ng-hide="tarea.prioridad==0" ng-click="menosPrioridad(tarea)"></span>
